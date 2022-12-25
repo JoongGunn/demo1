@@ -1,0 +1,105 @@
+        /* PC */
+        @media (min-width: 64em) {
+
+        }
+        /* Tablet & Mobile*/
+        @media (max-width: 63.9375em) {
+            .places-item .btn {
+                padding: 15px 16px;
+            }
+            .contact-form .form-control {
+                padding: 15px;
+            }
+            .contact-infor {
+                line-height: 2;
+            }
+            .contact-submit-btn{
+                font-size: 16px;
+            }
+
+            .icon-brandss {
+                font-size: 35px;
+                margin: 0 8px;
+            }
+            .content-footer a {
+                padding: 12px 0;
+                display: inline-block;
+            }
+            #subnav li a {
+                padding: 5px 12px;
+            }
+        
+        }
+
+        /* Tablet */
+        @media (min-width: 46.25em)  and (max-width: 63.9375em){
+
+        }
+
+        /* Mobile */
+        @media (max-width: 46.1875em) {
+            .s-full-width,
+            .s-col-full {
+                width: 100% !important;
+            }
+
+            .s-mt-8 {
+                margin-top: 8px !important;
+            }
+
+            #nav {
+                display: block;
+            }
+
+            #nav > li {
+                display: block;
+            }
+
+            #nav > li:first-child {
+                display: block;
+            }
+
+            #nav li a {
+                padding: 1px 24px;
+            }
+
+            #nav #subnav {
+                position: initial;
+                background-color: #333;
+                display: none;
+            }
+            #subnav li a {
+                color : #fff;
+                padding: 5px 41px;
+            }
+
+            #header {
+                overflow: hidden;
+            }
+
+            #header .mobile-menu-btn{
+                display: block;
+            }
+
+            #header .search-btn {
+                display: none;
+            }
+            #content .member-item {
+                margin-top: 30px;
+                width: 100%;
+            }
+            #content .member-img {
+                width: 60%;
+            }
+
+            .place-item-mobile {
+                background-color: #fff;
+                width: 100%;
+            }
+            .contact-form {
+                margin-top: 32px;
+            }
+            .sub-col {
+
+            }
+        }
